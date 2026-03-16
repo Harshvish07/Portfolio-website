@@ -10,7 +10,7 @@ export const myProjects = [
       "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
       "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
       "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements."
+      "Added payment systems, localization, and product filtering for functionality improvements.",
     ],
     href: "",
     logo: "",
@@ -19,24 +19,24 @@ export const myProjects = [
       {
         id: 1,
         name: "C#",
-        path: "/assets/logos/csharp.svg"
+        path: "/assets/logos/csharp.svg",
       },
       {
         id: 2,
         name: ".Net",
-        path: "/assets/logos/dotnet.svg"
+        path: "/assets/logos/dotnet.svg",
       },
       {
         id: 3,
         name: "Ef Core",
-        path: "/assets/logos/efcore.png"
+        path: "/assets/logos/efcore.png",
       },
       {
         id: 4,
         name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg"
-      }
-    ]
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ export const myProjects = [
       "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
       "Implemented role-based access control (RBAC) for fine-grained user permissions.",
       "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage."
+      "Connected to a secure SQLite database for user data storage.",
     ],
     href: "",
     logo: "",
@@ -56,25 +56,25 @@ export const myProjects = [
       {
         id: 1,
         name: "Auth0",
-        path: "/assets/logos/auth0.svg"
+        path: "/assets/logos/auth0.svg",
       },
       {
         id: 2,
         name: "React",
-        path: "/assets/logos/react.svg"
+        path: "/assets/logos/react.svg",
       },
       {
         id: 3,
         name: "SQLite",
-        path: "/assets/logos/sqlite.svg"
+        path: "/assets/logos/sqlite.svg",
       },
       {
         id: 4,
         name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg"
-      }
-    ]
-  }
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
   // {
   //   id: 3,
   //   title: "Blazor Web App",
@@ -229,18 +229,18 @@ export const mySocials = [
   {
     name: "Github",
     href: "https://github.com/Harshvish07",
-    icon: "/assets/socials/github.svg"
+    icon: "/assets/socials/github.svg",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/harsh-vish07/",
-    icon: "/assets/socials/linkedIn.svg"
+    icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/harsh_vish07?igsh=MTFvYTJocmtmY3hiNA== ",
-    icon: "/assets/socials/instagram.svg"
-  }
+    icon: "/assets/socials/instagram.svg",
+  },
 ];
 
 export const education = [
@@ -248,26 +248,14 @@ export const education = [
     year: "2022-2024",
     city: "Nagpur",
     degree: "Master of Computer Applications",
-    institution: "G. H. Raisoni Institute of Engineering & Technology"
+    institution: "G. H. Raisoni Institute of Engineering & Technology",
   },
   {
     year: "2019-2022",
     city: "Nagpur",
     degree: "Bachelor of computer Application",
-    institution: "Shri Shivaji Science College"
-  }
-  // {
-  //   title: "Software Developer",
-  //   job: "Security & Defense Projects",
-  //   date: "2021-2023",
-  //   contents: [
-  //     "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-  //     "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-  //     "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-  //     "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-  //     "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization."
-  //   ]
-  // }
+    institution: "Shri Shivaji Science College",
+  },
 ];
 
 export const experiences = [
@@ -280,68 +268,81 @@ export const experiences = [
       "Built and maintained responsive web applications using React.js, Next.js, and Tailwind CSS.",
       "Implemented context providers for efficient state management and component reusability.",
       "Developed user authentication features including email/phone verification & OTP validation.",
-      "Designed features for image upload, view, and deletion, improving user experience."
-    ]
+      "Designed features for image upload, view, and deletion, improving user experience.",
+    ],
   },
   {
     title: "Frontend Developer",
     job: "Talentrise Technokrate PVT. LTD.",
-    date: "Feb 25 - Present",
+    date: "Feb 25 - Aug-25",
     contents: [
       "Assisted in the development of a desktop application using React.js. Implemented React Router for secure navigation and protected routes.",
       "Optimized and reduced the app build bundle size by 70-80% by doing extensive debugging. It led to a quite fast app load.",
       "Collaborated with the team using GitHub for version control.",
-      "Gained hands-on experience in debugging, testing, and optimizing React components for better performance. "
-    ]
-  }
+      "Gained hands-on experience in debugging, testing, and optimizing React components for better performance. ",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    job: "Cloudexter",
+    date: "Sep 25 - Present",
+    contents: [
+      " Maintained production-grade web applications using React and Node.js, implementing modular frontend architecture and scalable backend services.",
+      "Designed and implemented secure authentication and session management using JWT and HTTP-only cookies with role-based access control and refresh token strategy.",
+      " Developed REST and GraphQL APIs with pagination, filtering, and role-based access control.",
+      "Integrated Directus (Headless CMS) to manage dynamic content and reduce frontend coupling.",
+      " Improved application performance by optimizing state management and API consumption.",
+      "Collaborated across teams to deliver features with clean UI and predictable backend contracts.",
+    ],
+  },
 ];
 export const reviews = [
   {
     name: "Jack",
     username: "@jack",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack"
+    img: "https://robohash.org/jack",
   },
   {
     name: "Jill",
     username: "@jill",
     body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill"
+    img: "https://robohash.org/jill",
   },
   {
     name: "John",
     username: "@john",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john"
+    img: "https://robohash.org/john",
   },
   {
     name: "Alice",
     username: "@alice",
     body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice"
+    img: "https://robohash.org/alice",
   },
   {
     name: "Bob",
     username: "@bob",
     body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob"
+    img: "https://robohash.org/bob",
   },
   {
     name: "Charlie",
     username: "@charlie",
     body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie"
+    img: "https://robohash.org/charlie",
   },
   {
     name: "Dave",
     username: "@dave",
     body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave"
+    img: "https://robohash.org/dave",
   },
   {
     name: "Eve",
     username: "@eve",
     body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve"
-  }
+    img: "https://robohash.org/eve",
+  },
 ];

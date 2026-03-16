@@ -17,7 +17,7 @@ const ParallaxBackground = () => {
           style={{
             backgroundImage: "url(/assets/sky.jpg)",
             backgroundPosition: "bottom",
-            backgroundSize: "cover"
+            backgroundSize: "cover",
           }}
         />
         {/* Mountain Layer 3 */}
@@ -27,7 +27,7 @@ const ParallaxBackground = () => {
             backgroundImage: "url(/assets/mountain-3.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
-            y: mountain3Y
+            y: mountain3Y,
           }}
         />
         {/* Planets */}
@@ -37,7 +37,7 @@ const ParallaxBackground = () => {
             backgroundImage: "url(/assets/planets.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
-            x: planetsX
+            x: planetsX,
           }}
         />
         {/* Mountain Layer 2 */}
@@ -47,7 +47,7 @@ const ParallaxBackground = () => {
             backgroundImage: "url(/assets/mountain-2.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
-            y: mountain2Y
+            y: mountain2Y,
           }}
         />
         {/* Mountaine Layer 1 */}
@@ -57,7 +57,7 @@ const ParallaxBackground = () => {
             backgroundImage: "url(/assets/mountain-1.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
-            y: mountain1Y
+            y: mountain1Y,
           }}
         />
       </div>

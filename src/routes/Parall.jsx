@@ -1,51 +1,3 @@
-// import React from "react";
-
-// const Parall = () => {
-//   return (
-//     <div className="relative min-h-screen text-white">
-//       {/* Parallax Layers */}
-//       <div className="fixed inset-0 z-[-1] overflow-hidden">
-//         <div
-//           className="absolute w-[200%] h-[200%] animate-slowSpin opacity-20"
-//           style={{
-//             backgroundImage:
-//               "url('https://www.transparenttextures.com/patterns/stardust.png')",
-//             backgroundRepeat: "repeat"
-//           }}
-//         />
-//         <div
-//           className="absolute w-[200%] h-[200%] animate-mediumSpin opacity-30"
-//           style={{
-//             backgroundImage:
-//               "url('https://www.transparenttextures.com/patterns/tiny-grid.png')",
-//             backgroundRepeat: "repeat"
-//           }}
-//         />
-//         <div
-//           className="absolute w-[200%] h-[200%] animate-fastSpin opacity-50"
-//           style={{
-//             backgroundImage:
-//               "url('https://www.transparenttextures.com/patterns/noise.png')",
-//             backgroundRepeat: "repeat"
-//           }}
-//         />
-//       </div>
-
-//       {/* Page Content */}
-//       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-32 text-center bg-gradient-to-b from-black/80 to-[#0a0a1e]">
-//         <h1 className="text-5xl font-bold mb-4">
-//           Welcome to My Space Portfolio
-//         </h1>
-//         <p className="text-lg max-w-xl">
-//           Explore my projects as you drift through the galaxy.
-//         </p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Parall;
-
 import React from "react";
 
 const Parall = () => {
@@ -58,7 +10,7 @@ const Parall = () => {
           style={{
             backgroundImage:
               "url('https://www.transparenttextures.com/patterns/stardust.png')",
-            backgroundRepeat: "repeat"
+            backgroundRepeat: "repeat",
           }}
         />
         <div
@@ -66,7 +18,7 @@ const Parall = () => {
           style={{
             backgroundImage:
               "url('https://www.transparenttextures.com/patterns/tiny-grid.png')",
-            backgroundRepeat: "repeat"
+            backgroundRepeat: "repeat",
           }}
         />
         <div
@@ -74,7 +26,7 @@ const Parall = () => {
           style={{
             backgroundImage:
               "url('https://www.transparenttextures.com/patterns/noise.png')",
-            backgroundRepeat: "repeat"
+            backgroundRepeat: "repeat",
           }}
         />
       </div>

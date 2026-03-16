@@ -12,21 +12,18 @@ export const Timeline = ({ data }) => {
       const rect = ref.current.getBoundingClientRect();
       setHeight(rect.height);
     }
-  }, [ref]);
+  }, [data]);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start 10%", "end 50%"]
+    offset: ["start 10%", "end 80%"],
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div
-      className="sm:px-10 px-5 lg:px-10 min-h-svw md:min-h-screen mt-30 md:mt-35"
-      ref={containerRef}
-    >
+    <div className="sm:px-10 px-5 lg:px-10 py-40 " ref={containerRef}>
       <h2 className="text-heading ">My Work Experience</h2>
       <div ref={ref} className="relative ">
         {data.map((item, index) => (
@@ -60,14 +57,14 @@ export const Timeline = ({ data }) => {
         ))}
         <div
           style={{
-            height: height + "px"
+            height: height + "px",
           }}
-          className="absolute md:left-1 left-1 top-0 overflow-hidden w-[2px] bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-[0%] via-neutral-700 to-transparent to-[99%]  [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] "
+          className="absolute md:left-1 left-1 top-0 overflow-hidden w-[2px] bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-[0%] via-neutral-700 to-transparent to-[99%] [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_100%)]"
         >
           <motion.div
             style={{
               height: heightTransform,
-              opacity: opacityTransform
+              opacity: opacityTransform,
             }}
             className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-lavender/50 to-transparent from-[0%] via-[10%] rounded-full"
           />
